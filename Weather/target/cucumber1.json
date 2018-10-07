@@ -1,0 +1,283 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 299457967,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Logging into openweatherMap",
+        "description": "",
+        "id": "logging-into-openweathermap;logging-into-openweathermap;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 366793631,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5742395855,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open Mozilla",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mozilla",
+                  "offset": 7
+                }
+              ],
+              "location": "GenericSteps.openBrowser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15099991307,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to LoginURL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LoginURL",
+                  "offset": 14
+                }
+              ],
+              "location": "GenericSteps.navigate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1733934607,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on signin_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "signin_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 852279332,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I login inside application",
+            "match": {
+              "location": "ApplicationStep.login(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Username",
+                  "thevarselvakumar@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Password",
+                  "Winter123!"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26192589,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "login should be success",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 16
+                }
+              ],
+              "location": "ApplicationStep.validateLogin(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 805700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Logging into openweatherMap",
+        "description": "",
+        "id": "logging-into-openweathermap;logging-into-openweathermap;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 111336739,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3449332872,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open chrome",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 7
+                }
+              ],
+              "location": "GenericSteps.openBrowser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12337382779,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to LoginURL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LoginURL",
+                  "offset": 14
+                }
+              ],
+              "location": "GenericSteps.navigate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1681658347,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on signin_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "signin_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 919689002,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I login inside application",
+            "match": {
+              "location": "ApplicationStep.login(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Username",
+                  "thevarselvakumar@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Password",
+                  "Winter123!"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42169051,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "login should be success",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 16
+                }
+              ],
+              "location": "ApplicationStep.validateLogin(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Logging into openweatherMap",
+    "description": "",
+    "id": "logging-into-openweathermap",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com/demo/weather/Login.feature",
+    "tags": []
+  }
+]
